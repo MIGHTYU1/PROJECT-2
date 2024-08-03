@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8>" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="RPS.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img src="https://telegra.ph/file/8f1fa868713bff86f4c1f.png" style="height: 3cm; width: 30%; margin-left: 35%;" />
+    </header>
+
+    <div class="hio">
+      <div class="score-board">
+        <div id="user-label" class="badge">You</div>
+        <div id="computer-label" class="badge">Bot</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+      </div>
+
+      <div class="result">
+        <p>Paper covers rock. You win!</p>
+      </div>
+
+      <div class="choices">
+        <div id="rock" class="choice">
+          <img width="48" height="48" src="https://telegra.ph/file/3cbbf630814e5cbe54165.png" />
+        </div>
+        <div id="paper" class="choice">
+          <img width="48" height="48" src="https://telegra.ph/file/8c90b3abdc0c3779697e6.png" />
+        </div>
+        <div id="scissors" class="choice">
+          <img width="48" height="48" src="https://telegra.ph/file/bb2a365e4c2dcc8b53864.png" />
+        </div>
+      </div>
+
+      <div class="reset-button">
+        <button id="reset">Reset Game</button>
+      </div>
+    </div>
+
+    <script src="RPS.js" type="text/javascript"></script>
+  </body>
+</html>
